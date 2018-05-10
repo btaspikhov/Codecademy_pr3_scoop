@@ -1,0 +1,30 @@
+users:
+  Berik:
+    username: Berik
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+articles:
+  '1':
+    id: 1
+    title: For test
+    url: URLa
+    username: Berik
+    commentIds:
+      - 1
+    upvotedBy:
+      - Berik
+    downvotedBy: []
+    comments: []
+comments:
+  '1':
+    id: 1
+    body: '123'
+    username: Berik
+    articleId: 1
+    upvotedBy:
+      - Berik
+    downvotedBy: []
+nextCommentId: 2
+nextArticleId: 2
